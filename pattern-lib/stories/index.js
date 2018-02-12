@@ -2,12 +2,20 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import Button from '../lib/elements/Button';
-// import { Button } from '@storybook/react/demo';
+import Label from '../lib/elements/Label';
+import TextInput from '../lib/elements/TextInput';
 
-storiesOf('Button', module)
-  .add('with text', () => (
-    <Button onClick={action('clicked')}>Hello Button</Button>
+storiesOf('Atoms', module)
+  .add('Button', () => (
+    <Button
+      onClick={action('clicked')}
+    >
+      Hello Button
+    </Button>
   ))
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>
-  ));   
+  .add('Label', () => (
+    <Label size='medium'>This is a Label</Label>
+  ))  
+  .add('TextInput', () => (
+    <TextInput />
+  ));  

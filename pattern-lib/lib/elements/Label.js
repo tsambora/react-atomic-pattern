@@ -20,6 +20,7 @@ const labelSizes = {
 const StyledLabel = styled.label`
   color: ${({ color }) => colors[color]};
   display: inline-block;
+  font-family: system-ui;
   font-size: ${({ size }) => labelSizes[size]['font-size']};
   line-height: ${({ size }) => labelSizes[size]['line-height']};
   font-weight: ${({ fontWeight }) => fontWeight};
