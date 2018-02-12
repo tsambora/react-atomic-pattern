@@ -6,7 +6,7 @@ const StyledTextInput = styled.input`
   border-width: 1px;
   font-size: 100%;
   line-height: 1.15;
-  padding: .5rem;
+  height: 36px;
 `;
 
 export default StyledTextInput;
