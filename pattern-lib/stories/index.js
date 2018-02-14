@@ -1,6 +1,5 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
 
 import Button from '../lib/elements/Button';
 import Label from '../lib/elements/Label';
@@ -13,7 +12,7 @@ import Header from '../lib/elements/Header';
 storiesOf('Atoms', module)
   .add('Button', () => (
     <Button
-      onClick={action('clicked')}
+      onClick={() => alert('button is clicked')}
     >
       Hello Button
     </Button>
