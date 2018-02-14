@@ -9,6 +9,8 @@ import SingleInputForm from '../lib/elements/SingleInputForm';
 
 import Header from '../lib/elements/Header';
 
+import SingleFormPage from '../lib/elements/SingleFormPage';
+
 storiesOf('Atoms', module)
   .add('Button', () => (
     <Button
@@ -43,5 +45,14 @@ storiesOf('Organisms', module)
         ]}
       onSearch={(text) => alert(text)}
       title='My website'
+    />
+  ));
+
+storiesOf('Template', module)
+  .add('Single Form Page', () => (
+    <SingleFormPage
+      formButtonLabel='submit'
+      formLabel='Enter email for early access'
+      onSubmit={(text) => alert(text)}
     />
   ));
