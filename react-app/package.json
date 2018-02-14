@@ -1,5 +1,5 @@
 {
-  "name": "component-lib-playground",
+  "name": "atomic-react-app",
   "version": "0.1.0",
   "description": "a playground for experimenting with a component library",
   "main": "server.js",

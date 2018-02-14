@@ -13,6 +13,9 @@ export default function Header({ links, title, onSearch }) {
         width: '100%',
         backgroundColor: 'grey',
         padding: '8px',
+        webkitBoxSizing: 'border-box',
+        mozBoxSizing: 'border-box',
+        boxSizing: 'border-box', 
       }}
     >
       <div 
