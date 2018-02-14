@@ -19,6 +19,7 @@ const labelSizes = {
 
 const StyledLabel = styled.label`
   color: ${({ color }) => colors[color]};
+  cursor: inherit;
   display: inline-block;
   font-family: system-ui;
   font-size: ${({ size }) => labelSizes[size]['font-size']};

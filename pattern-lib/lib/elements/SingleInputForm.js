@@ -36,9 +36,13 @@ export default class SingleInputForm extends Component {
   }
 
   render() {
+    const { label } = this.props;
+
     return (
       <div>
-        <Label>{this.props.label}</Label>
+        {label ?
+          <Label>{label}</Label>
+          : null}
         <div style={styles.inputWrapper}>
           <div style={styles.textInputWrapper}>
             <TextInput innerRef={(input) => this.input = input} />
@@ -54,7 +58,7 @@ export default class SingleInputForm extends Component {
 
 SingleInputForm.propTypes = {
   buttonLabel: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
+  label: PropTypes.string,
   onClick: PropTypes.func.isRequired
 };
 
