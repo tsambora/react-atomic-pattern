@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { SingleFormPage } from 'atomic-pattern-lib';
 
-import '../assets/stylesheets/base.scss';
-
 const App = ({ name }) => {
   return (
     <SingleFormPage
