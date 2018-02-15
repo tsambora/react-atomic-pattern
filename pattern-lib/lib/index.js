@@ -1,9 +1,9 @@
 import Button from './elements/Button';
 import Label from './elements/Label';
 import TextInput from './elements/TextInput';
-import SingleInputForm from './elements/SingleInputForm';
-import Header from './elements/Header';
-import SingleFormPage from './elements/SingleFormPage';
+import SingleInputForm from './components/SingleInputForm';
+import Header from './components/Header';
+import SingleFormPage from './components/SingleFormPage';
 
 module.exports = {
   Button,

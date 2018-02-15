@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Label from './Label';
+import Label from '../elements/Label';
 import SingleInputForm from './SingleInputForm';
 
 export default function Header({ links, title, onSearch }) {

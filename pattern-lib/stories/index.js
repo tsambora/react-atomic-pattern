@@ -5,11 +5,11 @@ import Button from '../lib/elements/Button';
 import Label from '../lib/elements/Label';
 import TextInput from '../lib/elements/TextInput';
 
-import SingleInputForm from '../lib/elements/SingleInputForm';
+import SingleInputForm from '../lib/components/SingleInputForm';
 
-import Header from '../lib/elements/Header';
+import Header from '../lib/components/Header';
 
-import SingleFormPage from '../lib/elements/SingleFormPage';
+import SingleFormPage from '../lib/components/SingleFormPage';
 
 storiesOf('Atoms', module)
   .add('Button', () => (

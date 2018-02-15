@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import Button from './Button';
-import Label from './Label';
-import TextInput from './TextInput';
+import Button from '../elements/Button';
+import Label from '../elements/Label';
+import TextInput from '../elements/TextInput';
 
 const styles = {
   inputWrapper: {
